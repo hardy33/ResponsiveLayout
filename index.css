@@ -35,7 +35,7 @@ div p {
 .d-flex:last-child {
     border-top: 5px solid #ff9037;
 }
-.d-flex:last-child .main{
+.d-flex:last-child .main:first-child{
     height: 29%;
 }
 .container {
@@ -44,8 +44,6 @@ div p {
 }
 .paymentDueTile div:not(:last-child) {
     border-bottom: 1px solid #eae3e3;
-    /* margin-top: -5px;
-    padding-bottom: 10px; */
 }
 .content span {
     font-weight: 200;
